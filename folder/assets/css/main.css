@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    background-color: #343A40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+nav{
+    margin: auto;
+    width: 80%;
+    background: transparent;
+}
+
+nav a{
+    color: #fff;
+}
+
+#register{
+    background: transparent;
+    border:1px solid greenyellow;
+    color: #fff;
+    padding: 5px 20px;
+}
+#register:hover{
+    background-color: greenyellow;
+}
+
+
+#login{
+    background-color: yellowgreen;
+    border:none ;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+
+#sec-one{
+    width: 100%;
+    height: 550px;
+    background-image: url(../media/hero_bg_2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-one-text h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+
+.btns #down-btn{
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    background-color: greenyellow;
+    color: #fff;
+}
+
+
+.btns #touch-btn{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    background: transparent;
+    color: #fff;
+}
+
+
+#sec-two .container .sec-two-text{
+    width: 450px;
+    height: 100px;
+    text-align: center;
+}
